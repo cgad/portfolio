@@ -3,50 +3,69 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cara's Portfolio</title>
+    <title>Portfolio | Cara's Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 </head>
 
 <body>
 
-    <div class="content">
-        <div class="heading clearfix">
-            <div class="head-text">
-                <header>Cara Adelson</header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Cara Adelson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-                <div class="upper-right">
-                    <div class="links">
-                        <a href="index.html" id="about">About</a>
-                        <a href="portfolio.html" id="portfolio">Portfolio</a>
-                        <a href="contact.html" id="contact">Contact</a>
+    <div class="content">
+        
+        <div class="row">
+            <div class="main clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <img src="assets/images/profile image.jpeg" alt="Cara Adelson" class="prof-pic clearfix"/>
+                            <p class="about-me">HEY, you! I'm Cara! Welcome to my portfolio.</p>
+                            
+                            <p class="about-me">I am an amateur web developer hailing from Denver, CO, the Mile High City.
+                                I grew up in Syracuse, NY and got my B.S. in Neuroscience at the University of Michigan in Ann Arbor, MI.
+                                After spending some time working for a start-up in the medical device industry, I decided
+                                to take my skills to a completely different industry in Park City, UT where I instructed skiing.
+                                How did it go? Swimmingly, in that I am a snowboarder who learned how to ski on the job,
+                                leading me to take on more of a babysitter role than that of an instructor.
+                                After taking a year-long hiatus from the West back in Syracuse as a chemist in an environmental lab,
+                                I packed my car and landed in Denver after spending an arm and a leg on gas while meandering around the country.</p>
+            
+                            <p class="about-me">My hobbies include coding, rock climbing, reading, listening to house music, and dropping things.</p>
+            
+                            <p class="about-me">Don't be shy! Shoot me a message!</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <div class="main clearfix">
-            <div class="container">
-                <h2>About Me</h2>
 
-                <img src="assets/images/profile image.jpeg" alt="Cara Adelson" class="prof-pic clearfix">
-
-                <p class="about-me">HEY, you! I'm Cara! Welcome to my portfolio.</p>
-                
-                <p class="about-me">I am an amateur web developer hailing from Denver, CO, the Mile High City.
-                    I grew up in Syracuse, NY and got my B.S. in Neuroscience at the University of Michigan in Ann Arbor, MI.
-                    After spending some time working for a start-up in the medical device industry, I decided
-                    to take my skills to a completely different industry in Park City, UT where I instructed skiing.
-                    How did it go? Swimmingly, in that I am a snowboarder who learned how to ski on the job,
-                    leading me to take on more of a babysitter role than that of an instructor.
-                    After taking a year-long hiatus from the West back in Syracuse as a chemist in an environmental lab,
-                    I packed my car and landed in Denver after spending an arm and a leg on gas while meandering around the country.</p>
-
-                <p class="about-me">My hobbies include coding, rock climbing, reading, listening to house music, and dropping things.</p>
-
-                <p class="about-me">Don't be shy! Shoot me a message!</p>
-            </div>
-        </div>
     </div>
 
     <footer>
