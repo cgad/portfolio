@@ -71,26 +71,6 @@ header {
     margin: 0 auto;
 }
 
-.content {
-    background-image: url("../images/lashes-dark.png");
-    background-repeat: repeat;
-    border-bottom: 4px solid #4aaaa5;
-    padding: 30px 0;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-.main {
-    background: #ffffff;
-    width: 80%;
-    margin: 25px auto;
-    padding-bottom: 30px;
-}
-
-.container {
-    padding: 20px 20px 0 20px;
-}
-
 h2 {
     color: #4aaaa5;
     border-bottom: 2px solid #dddddd;
@@ -141,6 +121,26 @@ input {
     margin-bottom: 10px;
 }
 
+.content {
+    background-image: url("../images/lashes-dark.png");
+    background-repeat: repeat;
+    border-bottom: 4px solid #4aaaa5;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.main {
+    background: #ffffff;
+    width: 80%;
+    margin: 25px auto;
+    padding-bottom: 30px;
+}
+
+.container {
+    padding: 20px 20px 0 20px;
+}
+
 textarea {
     width: 99.5%;
     border-color: #dddddd;
@@ -188,4 +188,8 @@ label {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
+}
+
+#legit {
+    border: 5px solid #f3c254;
 }
