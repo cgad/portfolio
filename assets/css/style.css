@@ -87,7 +87,7 @@ h2 {
 
 .prof-pic {
     float: left;
-    margin: 28px 20px 10px 0;
+    margin: 28px 25px 10px 0;
 }
 
 footer {
@@ -134,12 +134,13 @@ input {
 .main {
     background: #ffffff;
     width: 80%;
+    max-width: 900px;
     margin: 25px auto;
     padding-bottom: 30px;
 }
 
 .container {
-    padding: 20px 20px 0 20px;
+    padding: 23px 23px 0 23px;
 }
 
 textarea {
@@ -200,10 +201,25 @@ label {
     font-weight: 700;
 } 
 
+#nav-img {
+    height: 18px;
+    margin: 0;
+}
+
+.skills {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skill {
+    color: #4aaaa5;
+    padding: 10px;
+    font-size: 22px;
+    line-height: 30px;
+}
 
 
-
-
+/* STYLING FOR NEW CONTACT FORM/PHP CODE */
 
 /* body {
     margin: 0;

@@ -16,24 +16,30 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Cara Adelson</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <a class="navbar-brand" href="index.html">Cara Adelson</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/cgad" target="_blank"><img id="nav-img" src="assets/images/github-logo.png"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/cara-adelson-06219767/" target="_blank"><img id="nav-img" src="assets/images/linkedin.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
     <div class="content">
         <form id="contact-form" method="post" action="mail.php" role="form" data-toggle="validator">
@@ -51,7 +57,7 @@
                                 <form>
                                     <div class="form-group form-name">
                                         <label for="name">Name</label>
-                                        <input type="text" id="name" placeholder="John Smith" required/>
+                                        <input type="text" id="name" placeholder="Jane Doe" required/>
                                         <div class="help-block with-errors"></div>
                                     </div>
 
@@ -63,11 +69,11 @@
                                     
                                     <div class="form-group">
                                         <label for="message">Message</label>
-                                        <textarea rows="10"></textarea>
+                                        <textarea rows="5"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </form>
-                                <input type="submit" value="Submit" id="submit">
+                                <input type="submit" value="Send Message" id="submit">
                             </div>
                         </div>
                     </div>
