@@ -221,6 +221,11 @@ label {
     text-decoration: none;
 }
 
+::selection {
+    color: white;
+    background-color: #7987a7;
+}
+
 #nav-img {
     height: 18px;
     margin: 0;
