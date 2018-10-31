@@ -5,8 +5,6 @@ body {
     margin: 0;
     background: #020204;
     line-height: 24px;
-    /* position: relative;
-    padding-bottom: 50px; */
 }
 
 header {
@@ -22,9 +20,6 @@ header {
 
 .copyright {
     margin-bottom: 0;
-    /* position: absolute; 
-    left: 0; right: 0; bottom: 0; 
-    height: 50px; */
 }
 
 .upper-right {
@@ -97,6 +92,7 @@ h2 {
 
 .prof-pic {
     float: left;
+    position: relative;
     margin: 28px 25px 10px 0;
 }
 
@@ -120,6 +116,11 @@ footer {
     height: 35px;
     margin-top: 10px;
     padding: 5px 20px;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background: #65718bb4;
 }
 
 img {
@@ -138,9 +139,9 @@ input {
     background-attachment: fixed;
     background-size: 100%;
     border-bottom: 4px solid #65718b;
-    padding: 30px 0;
-    margin-bottom: 0;
+    padding: 30px 0 75px 0;
     width: 100%;
+    /* min-height: 600px; */
 }
 
 .main {
@@ -149,7 +150,8 @@ input {
     max-width: 900px;
     margin: 25px auto;
     padding-bottom: 30px;
-    opacity: 0.8;
+    opacity: 0.9;
+    border-radius: 7px;
 }
 
 .container {
@@ -210,9 +212,14 @@ label {
 }
 
 #message {
-    color: #65718b;
-    /* font-weight: 700; */
+    color: #7987a7;
+    overflow:hidden;
 } 
+
+#message:hover {
+    color: #545e74;
+    text-decoration: none;
+}
 
 #nav-img {
     height: 18px;
