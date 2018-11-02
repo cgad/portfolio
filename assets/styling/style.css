@@ -22,6 +22,15 @@ header {
     margin-bottom: 0;
 }
 
+.nav-link, .navbar-brand {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.nav-link {
+    font-size: 0.8em;
+}
+
 .upper-right {
     width: 210px;
     float: right;
@@ -211,19 +220,18 @@ label {
     border: 5px solid #f3c254;
 }
 
-#message {
+.message {
     color: #7987a7;
     overflow:hidden;
 } 
 
-#message:hover {
+.message:hover {
     color: #545e74;
     text-decoration: none;
 }
 
 ::selection {
-    color: white;
-    background-color: #7987a7;
+    background-color: lightgrey;
 }
 
 #nav-img {
@@ -241,6 +249,13 @@ label {
     padding: 10px;
     font-size: 22px;
     line-height: 30px;
+}
+
+#getintouch {
+    text-align: center;
+    border-bottom: none;
+    margin-top: 25px;
+    text-transform: uppercase;
 }
 
 
