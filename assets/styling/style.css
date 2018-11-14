@@ -221,12 +221,16 @@ label {
     border: 5px solid #f3c254;
 }
 
-.message {
+a {
     color: #7987a7;
     overflow:hidden;
 } 
 
-.message:hover {
+.modal-title {
+    color: rgba(0,0,0,.9);
+}
+
+a:hover {
     color: #545e74;
     text-decoration: none;
 }
