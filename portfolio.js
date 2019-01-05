@@ -56,7 +56,7 @@ $(".train").on("click", function() {
 $(".liri").on("click", function() {
   $("#appName").html("<strong>Liri Bot</strong>");
   $("#site").html(
-    "<p><a href='https://drive.google.com/file/d/1AYgZHSsnMJQxh6BsOTEs94EWBGTBCWyb/view?usp=sharing target=_blank'>Node App Demo Video</a></p>"
+    "<p><a href='https://drive.google.com/file/d/12RP4El2shlmCXrTRherPUGN4s9--_Dp9/view?usp=sharing target=_blank'>Node App Demo Video</a></p>"
   );
   $("#github").html(
     "<p><a href='https://github.com/cgad/liri-node-app target=_blank'>GitHub Repo</a></p>"
@@ -67,7 +67,7 @@ $(".liri").on("click", function() {
 $(".bamazon").on("click", function() {
   $("#appName").html("<strong>Bamazon</strong>");
   $("#site").html(
-    "<p><a href='https://drive.google.com/file/d/12vv5lFUAWZRk6yO9kqhbOQdZZs7lhj5A/view?usp=sharing target=_blank'>Node App Demo Video</a></p>"
+    "<p><a href='https://drive.google.com/file/d/1c5VQ9fhHGTrRsG3aEFE0EDtSFU23V3a-/view?usp=sharing target=_blank'>Node App Demo Video</a></p>"
   );
   $("#github").html(
     "<p><a href='https://github.com/cgad/bamazon target=_blank'>GitHub Repo</a></p>"
