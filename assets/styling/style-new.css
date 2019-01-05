@@ -1,17 +1,17 @@
 .display-4 {
-    text-align: center;
+  text-align: center;
 }
 
 .links {
-    text-align: center;
+  text-align: center;
 }
 
 button {
-    margin: 5px 5px;
-    border-radius: 10px;
-    width: 150px;
+  margin: 5px 5px;
+  border-radius: 10px;
+  width: 150px;
 }
 
 button:hover {
-    font-weight: 700;
+  font-weight: 700;
 }
