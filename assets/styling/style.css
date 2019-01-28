@@ -95,6 +95,12 @@ h2 {
   padding: 0 0 10px 0;
 }
 
+/* Portfolio page 'hover for more info' */
+h6 {
+  color: #292d30;
+  margin-bottom: 0;
+}
+
 .about-me {
   color: #292d30;
   margin-top: 20px;
@@ -218,6 +224,7 @@ label {
   border-bottom: 0;
 }
 
+/* All portfolio images */
 #legit {
   border: 5px solid #f3c254;
 }
