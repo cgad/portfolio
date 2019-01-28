@@ -1,3 +1,14 @@
+$(".devConnect").on("click", function() {
+  $("#appName").html("<strong>DevConnector</strong>");
+  $("#site").html(
+    "Live site coming soon!"
+  );
+  $("#github").html(
+    "<p><a href='https://github.com/cgad/devconnector' target=_blank'>GitHub Repo</a></p>"
+  );
+  $(".modal").modal("show");
+});
+
 $(".carbon").on("click", function() {
   $("#appName").html("<strong>Carbon Neutral</strong>");
   $("#site").html(
