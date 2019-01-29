@@ -1,7 +1,7 @@
 $(".devConnect").hover(
   function() {
     $("#devConnectSpan").html(
-      "<p>A small social network designed for programmers and built using the MERN stack.</p><button style='margin:2px;'><a href='https://github.com/cgad/carbon-neutral' target=_blank>GitHub Repo</a></button>"
+      "<p>A small social network designed for programmers and built using the MERN stack. <small>Live app coming soon.</small></p><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/carbon-neutral' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -20,7 +20,7 @@ $(".devConnect").hover(
 $(".carbon").hover(
   function() {
     $("#carbonSpan").html(
-      "<p>A React app created for the environmentally conscious. Provides environmental impact models of a variety of daily activities based on user input.</p><button style='margin:2px;'><a href='https://cryptic-woodland-29160.herokuapp.com/ target=_blank'>Web App</a></button><button style='margin:2px;'><a href='https://github.com/cgad/carbon-neutral' target=_blank>GitHub Repo</a></button>"
+      "<p>A React app created for the environmentally conscious. Provides environmental impact models of a variety of daily activities based on user input.</p><button style='margin:2px; border-radius:5px;'><a href='https://cryptic-woodland-29160.herokuapp.com/ target=_blank'>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/carbon-neutral' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -39,7 +39,7 @@ $(".carbon").hover(
 $(".onion").hover(
   function() {
     $("#onionSpan").html(
-      "<p>Allows users to leave personal notes on articles scraped from https://politics.theonion.com/ using Mongoose and Cheerio.</p><button style='margin:2px;'><a href='https://aqueous-ridge-77825.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px;'><a href='https://github.com/cgad/onion-scraper' target=_blank>GitHub Repo</a></button>"
+      "<p>Allows users to leave personal notes on articles scraped from https://politics.theonion.com/ using Mongoose and Cheerio.</p><button style='margin:2px; border-radius:5px;'><a href='https://aqueous-ridge-77825.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/onion-scraper' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -58,7 +58,7 @@ $(".onion").hover(
 $(".isLegit").hover(
   function() {
     $("#legitSpan").html(
-      "<p>Allows users to evaluate legitimacy and intent of content found on the internet. Uses HTML methods. Group project.</p><button style='margin:2px;'><a href='https://peaceful-savannah-96764.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px;'><a href='https://github.com/Jaco5/project-two-new' target=_blank>GitHub Repo</a></button>"
+      "<p>Allows users to evaluate legitimacy and intent of content found on the internet. Uses HTML methods. Group project.</p><button style='margin:2px; border-radius:5px;'><a href='https://peaceful-savannah-96764.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/Jaco5/project-two-new' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -77,7 +77,7 @@ $(".isLegit").hover(
 $(".friend").hover(
   function() {
     $("#friendSpan").html(
-      "<p>Finds the user's closest friend match by evaluating user input and comparing to friends stored in server. Uses Express.</p><button style='margin:2px;'><a href='https://glacial-lowlands-57080.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px;'><a href='https://github.com/cgad/FriendFinder' target=_blank>GitHub Repo</a></button>"
+      "<p>Finds the user's closest friend match by evaluating user input and comparing to friends stored in server. Uses Express.</p><button style='margin:2px; border-radius:5px;'><a href='https://glacial-lowlands-57080.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/FriendFinder' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -96,7 +96,7 @@ $(".friend").hover(
 $(".train").hover(
   function() {
     $("#trainSpan").html(
-      "<p>A train schedule management system. Uses Firebase.</p><button style='margin:2px;'><a href='https://cgad.github.io/train-scheduler/' target=_blank>Web App</a></button><button style='margin:2px;'><a href='https://github.com/cgad/train-scheduler' target=_blank>GitHub Repo</a></button>"
+      "<p>A train schedule management system. Uses Firebase.</p><button style='margin:2px; border-radius:5px;'><a href='https://cgad.github.io/train-scheduler/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/train-scheduler' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -115,7 +115,7 @@ $(".train").hover(
 $(".liri").hover(
   function() {
     $("#liriSpan").html(
-      "<p>Allows user to search for concert, song, or movie info. Uses Node.</p><button style='margin:2px;'><a href='https://drive.google.com/file/d/12RP4El2shlmCXrTRherPUGN4s9--_Dp9/view?usp=sharing' target=_blank>Demo Video</a></button><button style='margin:2px;'><a href='https://github.com/cgad/liri-node-app' target=_blank>GitHub Repo</a></button>"
+      "<p>Allows user to search for concert, song, or movie info. Uses Node.</p><button style='margin:2px; border-radius:5px;'><a href='https://drive.google.com/file/d/12RP4El2shlmCXrTRherPUGN4s9--_Dp9/view?usp=sharing' target=_blank>Demo Video</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/liri-node-app' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -134,7 +134,7 @@ $(".liri").hover(
 $(".bamazon").hover(
   function() {
     $("#bamazonSpan").html(
-      "<p>A Command Line shopping experience. Uses Node and MySql.</p><button style='margin:2px;'><a href='https://drive.google.com/file/d/1c5VQ9fhHGTrRsG3aEFE0EDtSFU23V3a-/view?usp=sharing' target=_blank>Demo Video</a></button><button style='margin:2px;'><a href='https://github.com/cgad/bamazon' target=_blank>GitHub Repo</a></button>"
+      "<p>A Command Line shopping experience. Uses Node and MySql.</p><button style='margin:2px; border-radius:5px;'><a href='https://drive.google.com/file/d/1c5VQ9fhHGTrRsG3aEFE0EDtSFU23V3a-/view?usp=sharing' target=_blank>Demo Video</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/bamazon' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -153,7 +153,7 @@ $(".bamazon").hover(
 $(".giphy").hover(
   function() {
     $("#giphySpan").html(
-      "<p>Allows users to view and search for gifs from GIPHY. Uses AJAX.</p><button style='margin:2px;'><a href='https://cgad.github.io/giftastic/' target=_blank>Web App</a></button><button style='margin:2px;'><a href='https://github.com/cgad/giftastic' target=_blank>GitHub Repo</a></button>"
+      "<p>Allows users to view and search for gifs from GIPHY. Uses AJAX.</p><button style='margin:2px; border-radius:5px;'><a href='https://cgad.github.io/giftastic/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/giftastic' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -172,7 +172,7 @@ $(".giphy").hover(
 $(".crystals").hover(
   function() {
     $("#crystalsSpan").html(
-      "<p>A game with the objective of matching the target score by clicking crystals with random point values.</p><button style='margin:2px;'><a href='https://cgad.github.io/unit-4-game/' target=_blank>Web App</a></button><button style='margin:2px;'><a href='https://github.com/cgad/unit-4-game' target=_blank>GitHub Repo</a></button>"
+      "<p>A game with the objective of matching the target score by clicking crystals with random point values.</p><button style='margin:2px; border-radius:5px;'><a href='https://cgad.github.io/unit-4-game/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/unit-4-game' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -191,7 +191,7 @@ $(".crystals").hover(
 $(".burger").hover(
   function() {
     $("#burgerSpan").html(
-      "<p>A burgers-to-eat wishlist app. Uses MySql.</p><button style='margin:2px;'><a href='https://mighty-tor-46071.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px;'><a href='https://github.com/cgad/burger' target=_blank>GitHub Repo</a></button>"
+      "<p>A burgers-to-eat wishlist app. Uses MySql.</p><button style='margin:2px; border-radius:5px;'><a href='https://mighty-tor-46071.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/burger' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -210,7 +210,7 @@ $(".burger").hover(
 $(".disney").hover(
   function() {
     $("#disneySpan").html(
-      "<p>A Disney-themed timed, multiple choice trivia game.</p><button style='margin:2px;'><a href='https://cgad.github.io/TriviaGame/' target=_blank>Web App</a></button><button style='margin:2px;'><a href='https://github.com/cgad/TriviaGame' target=_blank>GitHub Repo</a></button>"
+      "<p>A Disney-themed timed, multiple choice trivia game.</p><button style='margin:2px; border-radius:5px;'><a href='https://cgad.github.io/TriviaGame/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/TriviaGame' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -229,7 +229,7 @@ $(".disney").hover(
 $(".fruit").hover(
   function() {
     $("#fruitSpan").html(
-      "<p>A Hangman-style guessing game.</p><button style='margin:2px;'><a href='https://cgad.github.io/Word-Guess-Game/' target=_blank>Web App</a></button><button style='margin:2px;'><a href='https://github.com/cgad/Word-Guess-Game' target=_blank>GitHub Repo</a></button>"
+      "<p>A Hangman-style guessing game.</p><button style='margin:2px; border-radius:5px;'><a href='https://cgad.github.io/Word-Guess-Game/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5 px;'><a href='https://github.com/cgad/Word-Guess-Game' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
