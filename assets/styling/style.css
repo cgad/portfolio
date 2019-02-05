@@ -110,6 +110,8 @@ h6 {
   float: left;
   position: relative;
   margin: 28px 25px 10px 0;
+  width: 200px;
+  height: 200px;
 }
 
 footer {

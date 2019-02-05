@@ -1,7 +1,7 @@
 $(".devConnect").hover(
   function() {
     $("#devConnectSpan").html(
-      "<p>A small social network designed for programmers and built using the MERN stack. <small>Live app coming soon.</small></p><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/carbon-neutral' target=_blank>GitHub Repo</a></button>"
+      "<p>A small social network designed for programmers and built using React Redux. <small>Live app coming soon.</small></p><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/carbon-neutral' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
