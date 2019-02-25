@@ -1,7 +1,7 @@
 $(".devConnect").hover(
   function() {
     $("#devConnectSpan").html(
-      "<p>A small social network designed for programmers and built using React Redux. <small>Live app coming soon.</small></p><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/carbon-neutral' target=_blank>GitHub Repo</a></button>"
+      "<p>A small social network designed for programmers and built using React Redux.</p><button style='margin:2px; border-radius:5px;'><a href='https://warm-sea-72201.herokuapp.com/' target='_blank'>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/devconnector' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
@@ -20,7 +20,7 @@ $(".devConnect").hover(
 $(".carbon").hover(
   function() {
     $("#carbonSpan").html(
-      "<p>A React app created for the environmentally conscious. Provides environmental impact models of a variety of daily activities based on user input.</p><button style='margin:2px; border-radius:5px;'><a href='https://cryptic-woodland-29160.herokuapp.com/ target=_blank'>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/carbon-neutral' target=_blank>GitHub Repo</a></button>"
+      "<p>A React app created for the environmentally conscious. Provides environmental impact models of a variety of daily activities based on user input.</p><button style='margin:2px; border-radius:5px;'><a href='https://cryptic-woodland-29160.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/carbon-neutral' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
