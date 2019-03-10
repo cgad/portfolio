@@ -39,7 +39,7 @@ $(".carbon").hover(
 $(".onion").hover(
   function() {
     $("#onionSpan").html(
-      "<p>Allows users to leave personal notes on articles scraped from https://politics.theonion.com/ using Mongoose and Cheerio.</p><button style='margin:2px; border-radius:5px;'><a href='https://aqueous-ridge-77825.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/onion-scraper' target=_blank>GitHub Repo</a></button>"
+      "<p>Allows users to leave personal notes on articles scraped from The Onion Politics using Mongoose and Cheerio.</p><button style='margin:2px; border-radius:5px;'><a href='https://aqueous-ridge-77825.herokuapp.com/' target=_blank>Web App</a></button><button style='margin:2px; border-radius:5px;'><a href='https://github.com/cgad/onion-scraper' target=_blank>GitHub Repo</a></button>"
     );
     $(this).css({
       "background-color": "#65718b",
