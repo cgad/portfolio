@@ -1,346 +1,239 @@
-html {
-  height: 100vh;
-}
+/* * {
+  box-sizing: border-box;
+} */
 
 body {
-  color: #cccccc;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  /* width: 100%; */
-  margin: 0;
-  background: #020204;
-  line-height: 24px;
-  height: 100vh;
-}
-
-header {
-  background: #292d30;
-  color: #f8f9fa;
-  width: 19%;
-  float: left;
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 50px;
-  font-family: "Georgia", Times, Times New Roman, serif;
-}
-
-.copyright {
-  margin-bottom: 0;
-}
-
-.nav-link,
-.navbar-brand {
-  text-transform: uppercase;
-  font-weight: 300;
-}
-
-.nav-link {
-  font-size: 0.8em;
-}
-
-.upper-right {
-  width: 210px;
-  float: right;
-  margin-top: 18px;
-  margin-bottom: 18px;
-  color: #777777;
-}
-
-#contact {
-  font-size: 12px;
-  width: 42px;
-  height: 10px;
-  line-height: 25px;
-  padding: 6px 0;
-  margin-left: 10px;
-  float: right;
-  text-align: right;
-  height: 1px;
-  line-height: 1px;
-}
-
-#portfolio {
-  font-size: 12px;
-  border-left: 1px solid #777777;
-  border-right: 1px solid #777777;
-  float: right;
-  text-align: left;
-  height: 1px;
-  line-height: 1px;
-  margin: 0;
-  padding: 6px 10px;
-}
-
-#about {
-  font-size: 12px;
-  width: 40px;
-  padding: 6px 0;
-  margin: 0 10px;
-  height: 1px;
-  line-height: 1px;
-}
-
-.heading {
-  background: #ffffff;
-  height: 50px;
-  border-bottom: 1.5px solid #cccccc;
-}
-
-.head-text {
-  width: 960px;
   margin: 0 auto;
-}
-
-h2 {
-  color: #65718b;
-  border-bottom: 2px solid #dddddd;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 700;
-  margin-bottom: 20px;
-  line-height: 40px;
-  padding: 0 0 10px 0;
-}
-
-/* Portfolio page 'hover for more info' */
-h6 {
-  color: #292d30;
-  margin-bottom: 0;
-}
-
-.about-me {
-  color: #292d30;
-  margin-top: 20px;
-}
-
-.prof-pic {
-  float: left;
-  position: relative;
-  margin: 28px 25px 10px 0;
-  width: 200px;
-  height: 200px;
-}
-
-footer {
-  padding: 30px 0;
-  clear: both;
-  font-size: 12px;
-  color: #ccc;
-  text-align: center;
-  background: #f8f9fa;
-  height: 30px;
-
-  /* position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  margin-top: 10px; */
-  /* background-color: red; */
-  /* color: white; */
-  /* text-align: center; */
-}
-
-#submit {
-  background: #65718b;
-  border: none;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  line-height: 20px;
-  height: 35px;
-  margin-top: 10px;
-  padding: 5px 20px;
-  border-radius: 5px;
-}
-
-#submit:hover {
-  background: #65718bb4;
-}
-
-input {
-  width: 99.5%;
-  line-height: 22px;
-  margin-bottom: 10px;
-}
-
-.content {
-  background-image: url("../images/starry-mtns.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
-  border-bottom: 4px solid #65718b;
-  padding: 30px 0 75px 0;
-  width: 100%;
-  /* min-height: 600px; */
-}
-
-.main {
-  background: #f8f9fa;
-  width: 80%;
-  max-width: 800px;
-  margin: 25px auto;
-  padding-bottom: 30px;
-  opacity: 0.9;
-  border-radius: 7px;
+  padding-bottom: 20px;
+  position: absolute;
 }
 
 .container {
-  padding: 23px 23px 0 23px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 
-textarea {
-  width: 99.5%;
-  border-color: #dddddd;
-}
-
-label {
-  color: #777777;
-  line-height: 30px;
-}
-
-::placeholder {
-  color: #777777;
-}
-
-.form-name {
-  margin-top: 10px;
-}
-
-.work {
+/* DIV 1 */
+.div-1 {
+  grid-column: span 12;
+  background-image: url("../images/yellowstone-geysers.jpg");
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  float: left;
-  width: 200px;
-  height: 200px;
-  overflow: auto;
 }
 
-.work img {
-  width: 100%;
-  height: 100%;
-  border: 0 none;
-  opacity: 0.8;
-  margin: 0;
-}
-
-.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 0;
-  font-weight: 300;
-  line-height: 20px;
-  font-size: 20px;
-  color: #fff;
+.links {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  background-color: #ffffff;
+  opacity: 0.5;
   text-align: center;
-  background: #65718b;
-  border-bottom: 0;
+  border-radius: 5px;
+  padding: 0 7px 4px 7px;
+  box-sizing: border-box;
 }
 
-/* All portfolio images */
-#legit {
-  border: 5px solid #f3c254;
-}
-
-a {
-  color: #7987a7;
-  overflow: hidden;
-}
-
-.modal-title {
-  color: rgba(0, 0, 0, 0.9);
-}
-
-a:hover {
-  color: #545e74;
-  text-decoration: none;
-}
-
-::selection {
-  background-color: lightgrey;
-}
-
-#nav-img {
-  height: 18px;
-  margin: 0;
-}
-
-.skills {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.skill {
-  color: #65718b;
+#icons {
   padding: 10px;
-  font-size: 22px;
-  line-height: 30px;
-}
-
-#getintouch {
-  text-align: center;
-  border-bottom: none;
-  margin-top: 25px;
-  text-transform: uppercase;
-}
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 200px;
-  height: 200px;
-  /* perspective: 1000px;  */ /* Remove this if you don't want the 3D effect */
-  margin: 15px;
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
+  width: 100%;
   position: relative;
-  width: 100%;
+  box-sizing: border-box;
   height: 100%;
+}
+
+#sub-icons > a > .github {
+  margin: 2px;
+  position: relative;
+  top: 4px;
+}
+
+#sub-icons > a > .github {
+  height: 22px;
+  position: relative;
+}
+
+#sub-icons > a > .email,
+#sub-icons > a > .linkedin {
+  height: 22px;
+  position: relative;
+  top: 2px;
+}
+
+/* HEADER */
+header {
+  color: #534a33;
   text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
   width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+  margin: 0 auto;
+  top: 10px;
+  z-index: 1;
+  padding-top: 8px;
+  /* position: fixed; */
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  /* background-color: #65718b; */
-  color: white;
+header p {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  font-family: Courier, monospace;
+  font-size: 40px;
+  height: 40px;
 }
 
-/* Style the back side */
-.flip-card-back {
-  background-color: #65718b;
-  color: white;
-  transform: rotateY(180deg);
+/* HEADER ON SCROLL */
+.header {
+  opacity: 0.5;
+}
+
+/* HEADER ICONS */
+
+.github {
+  height: 24px;
+  position: relative;
+  bottom: 7px;
+  margin: 0 8px 0 9px;
+}
+
+.email {
+  height: 25px;
+  position: relative;
+  bottom: 7px;
+}
+
+header > #icons > a > .github {
+  margin: 0 8px 0 9px;
+}
+
+.linkedin {
+  height: 26px;
+  position: relative;
+  bottom: 7px;
+}
+
+/* PORTFOLIO SECTION */
+.card {
+  grid-column: span 12;
+  background-color: #ffffff;
+  margin-bottom: 0;
+}
+
+.card-item {
+  background-color: #55645c;
   text-align: center;
+  margin: 20px;
+  margin-bottom: 0;
+  padding: 30px;
+  padding: 30px;
+  padding-bottom: 38px;
+  font-family: Courier, monospace;
+  border-radius: 10px;
 }
 
-.flip-card-back a img {
-  background: #65718b;
-  height: 30px;
-  width: 30px;
-  margin: 5px;
+.card-item h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 22px;
 }
 
-/* .flip-card-back div {
-  display: inline-flex
-} */
+.card-item p {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 120x;
+}
 
-.flip-card-back p {
-  margin: 10px;
+.card-item a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.tech-item {
+  height: 50px;
+}
+
+.internet {
+  height: 19px;
+  position: relative;
+  top: 1px;
+  padding: 7.5px;
   margin-bottom: 5px;
+  margin-left: 3px;
+}
+
+.github-link {
+  margin-bottom: 30px;
+}
+
+.devicon-github-plain,
+.internet {
+  border: 1px solid black;
+  border-radius: 5px;
+  background: none;
+}
+
+.devicon-github-plain:hover,
+.internet:hover {
+  border: 1px solid grey;
+}
+
+.devicon-github-plain {
+  padding: 7px;
+  box-sizing: content-box;
+  font-size: 20px;
+  line-height: 25px;
+  position: relative;
+  bottom: 13px;
+}
+
+.tech-icon {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#see-more-button {
+  border: 2px solid #534a33;
+  border-radius: 0.5em;
+  height: 30px;
+  width: 100px;
+  margin: 18px auto;
+  font-size: 16px;
+  font-family: Courier, monospace;
+}
+
+#see-more-button:hover {
+  background-color: #a9a9a9;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .div-1 {
+    height: 200px;
+  }
+
+  header p {
+    font-size: 32px;
+    margin-bottom: 0px;
+  }
+
+  header {
+    padding-top: 5px;
+  }
+
+  .card-item {
+    margin: 20px 0 0 0;
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  #icons > a > img {
+    color: #55645c;
+  }
+
+  .links {
+    bottom: 30px;
+    left: 10px;
+  }
 }

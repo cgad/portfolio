@@ -1,13 +1,12 @@
-window.onscroll = function() {
-  if (
-    document.body.scrollTop > 160 ||
-    document.documentElement.scrollTop > 160
-  ) {
-    document.getElementById("header").className = "header";
-    document.getElementById("icons").innerHTML = "";
+function seeMore() {
+  var x = document.getElementById("see-more");
+  var y = document.getElementById("see-more-button");
+  // console.log(x.style);
+  if (x.style.display === "none") {
+    // x.style.display = "block";
+    x.setAttribute("style", "display: block");
+    y.setAttribute("style", "display: none");
   } else {
-    document.getElementById("header").className = "";
-    document.getElementById("icons").innerHTML =
-      '<img class="github" src="src/assets/images/GitHub-Mark-Light-64px.png" alt="Link to GitHub"/> <img class="email" src="src/assets/images/email-white.png" alt="Link to E-Mail"/><img src="src/assets/images/linkedin-white.png" alt="Link to LinkedIn" class="linkedin"/>';
+    x.style.display = "none";
   }
-};
+}
