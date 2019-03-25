@@ -1,6 +1,8 @@
-/* * {
-  box-sizing: border-box;
-} */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 body {
   margin: 0 auto;
@@ -12,9 +14,10 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  position: relative;
 }
 
-/* DIV 1 */
+/* DIV 1 - HEADER BACKGROUND */
 .div-1 {
   grid-column: span 12;
   background-image: url("../images/yellowstone-geysers.jpg");
@@ -25,92 +28,60 @@ body {
   position: relative;
 }
 
-.links {
+/* HEADER ICONS -- STATIC */
+/* scroll style changed in js */
+#links {
   position: fixed;
-  bottom: 30px;
-  left: 30px;
+  top: 20px;
+  z-index: 1;
+  /* to center fixed element horizontally */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#links p {
+  color: #534a33;
+  margin: 0;
   background-color: #ffffff;
   opacity: 0.5;
+  border-radius: 7px;
+  padding: 3px 9px;
+  font-size: 34px;
+  font-family: Courier, monospace;
   text-align: center;
-  border-radius: 5px;
-  padding: 0 7px 4px 7px;
-  box-sizing: border-box;
 }
 
-#icons {
-  padding: 10px;
-  width: 100%;
-  position: relative;
-  box-sizing: border-box;
-  height: 100%;
+#sub-icons {
+  background-color: #ffffff;
+  opacity: 0.5;
+  border-radius: 0 0 7px 7px;
+  padding: 2px 10px 6px 10px;
+  display: inline-block;
 }
 
-#sub-icons > a > .github {
-  margin: 2px;
+#email,
+#github,
+#linkedin {
   position: relative;
+  bottom: 7px;
+}
+
+#github {
+  height: 22px;
+  margin: 0 6px 0 7px;
   top: 4px;
+  padding-bottom: 2px;
 }
 
-#sub-icons > a > .github {
+#email {
   height: 22px;
-  position: relative;
-}
-
-#sub-icons > a > .email,
-#sub-icons > a > .linkedin {
-  height: 22px;
-  position: relative;
   top: 2px;
 }
 
-/* HEADER */
-header {
-  color: #534a33;
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  top: 10px;
-  z-index: 1;
-  padding-top: 8px;
-  /* position: fixed; */
-}
-
-header p {
-  margin: 0 auto;
-  margin-bottom: 10px;
-  font-family: Courier, monospace;
-  font-size: 40px;
-  height: 40px;
-}
-
-/* HEADER ON SCROLL */
-.header {
-  opacity: 0.5;
-}
-
-/* HEADER ICONS */
-
-.github {
-  height: 24px;
-  position: relative;
-  bottom: 7px;
-  margin: 0 8px 0 9px;
-}
-
-.email {
-  height: 25px;
-  position: relative;
-  bottom: 7px;
-}
-
-header > #icons > a > .github {
-  margin: 0 8px 0 9px;
-}
-
-.linkedin {
-  height: 26px;
-  position: relative;
-  bottom: 7px;
+#linkedin {
+  height: 23px;
+  top: 2px;
 }
 
 /* PORTFOLIO SECTION */
@@ -192,7 +163,8 @@ header > #icons > a > .github {
   line-height: 25px;
 }
 
-#see-more-button {
+#see-more-button,
+#see-less-button {
   border: 2px solid #534a33;
   border-radius: 0.5em;
   height: 30px;
@@ -202,24 +174,16 @@ header > #icons > a > .github {
   font-family: Courier, monospace;
 }
 
-#see-more-button:hover {
+#see-more-button:hover,
+#see-less-button:hover {
   background-color: #a9a9a9;
 }
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+  /* For mobile phones & small screens: */
   .div-1 {
     height: 200px;
-  }
-
-  header p {
-    font-size: 32px;
-    margin-bottom: 0px;
-  }
-
-  header {
-    padding-top: 5px;
   }
 
   .card-item {
@@ -232,8 +196,7 @@ header > #icons > a > .github {
     color: #55645c;
   }
 
-  .links {
-    bottom: 30px;
-    left: 10px;
+  #see-more-button {
+    width: 150px;
   }
 }

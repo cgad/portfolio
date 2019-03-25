@@ -12,63 +12,37 @@
     <title>Cara Adelson</title>
   </head>
   <body>
+    <!-- Fixed Links -->
+    <div id="links">
+      <p>cara adelson</p>
+      <div id="sub-icons">
+        <a href="mailto:cara.adelson@gmail.com" target="_blank"
+          ><img
+            id="email"
+            src="src/assets/images/email-olive.png"
+            alt="Link to E-Mail"
+        /></a>
+        <a href="https://github.com/cgad" target="_blank">
+          <img
+            id="github"
+            src="src/assets/images/github-olive.png"
+            alt="Link to GitHub"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/cara-adelson-06219767/"
+          target="_blank"
+          ><img
+            src="src/assets/images/linkedin-olive.png"
+            alt="Link to LinkedIn"
+            id="linkedin"
+        /></a>
+      </div>
+    </div>
+
+    <!-- Project Cards -->
     <div class="container">
-      <!-- Header -->
-      <div class="div-1">
-        <header id="header">
-          <p>cara adelson</p>
-          <div id="icons">
-            <a href="mailto:cara.adelson@gmail.com" target="_blank"
-              ><img
-                class="email"
-                src="src/assets/images/email-olive.png"
-                alt="Link to E-Mail"
-            /></a>
-            <a href="https://github.com/cgad" target="_blank">
-              <img
-                class="github"
-                src="src/assets/images/github-olive.png"
-                alt="Link to GitHub"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/cara-adelson-06219767/"
-              target="_blank"
-              ><img
-                src="src/assets/images/linkedin-olive.png"
-                alt="Link to LinkedIn"
-                class="linkedin"
-            /></a>
-          </div>
-        </header>
-      </div>
+      <div class="div-1"></div>
 
-      <!-- Fixed Links -->
-      <div class="links">
-        <div id="sub-icons">
-          <a href="mailto:cara.adelson@gmail.com" target="_blank"
-            ><img
-              class="email"
-              src="src/assets/images/email-olive.png"
-              alt="Link to E-Mail"
-          /></a>
-          <a href="https://github.com/cgad" target="_blank">
-            <img
-              class="github"
-              src="src/assets/images/github-olive.png"
-              alt="Link to GitHub"
-          /></a>
-          <a
-            href="https://www.linkedin.com/in/cara-adelson-06219767/"
-            target="_blank"
-            ><img
-              src="src/assets/images/linkedin-olive.png"
-              alt="Link to LinkedIn"
-              class="linkedin"
-          /></a>
-        </div>
-      </div>
-
-      <!-- Project Cards -->
       <div class="card">
         <div class="card-item">
           <h1>DevConnector</h1>
@@ -188,7 +162,7 @@
     </div>
     <!-- Container end -->
 
-    <!-- Project Cards Cont. - See More -->
+    <!-- Project Cards Cont. -- See More -->
     <div id="see-more" style="display: none">
       <div class="card">
         <div class="card-item">
@@ -296,7 +270,6 @@
             data-toggle="tooltip"
             title="CSS3"
           ></i>
-
           <i
             class="devicon-express-original tech-icon"
             data-toggle="tooltip"
@@ -308,179 +281,9 @@
     <button id="see-more-button" style="display: block" onclick="seeMore()">
       see more
     </button>
-
-    <!-- Project Cards -->
-    <!-- <div class="see-more">
-      <input type="checkbox" class="read-more-state" id="post-2" />
-      <ul class="read-more-wrap">
-        <li>
-          <div class="card">
-            <div class="card-item">
-              <h1>DevConnector</h1>
-              <a href="https://github.com/cgad/devconnector" target="_blank"
-                ><i class="devicon-github-plain"></i
-              ></a>
-              <a href="https://warm-sea-72201.herokuapp.com/" target="_blank">
-                <img
-                  class="internet"
-                  src="src/assets/images/internet-icon.png"
-                  alt=""
-              /></a>
-              <p>
-                A small social network designed for programmers. Register,
-                create a profile, write posts, comment on posts and delete
-                account. User authentication with Passport and JSON Web Tokens.
-              </p>
-              <i
-                class="devicon-html5-plain tech-icon"
-                data-toggle="tooltip"
-                title="HTML5"
-              ></i>
-              <i
-                class="devicon-javascript-plain tech-icon"
-                data-toggle="tooltip"
-                title="JavaScript"
-              ></i>
-              <i
-                class="devicon-css3-plain tech-icon"
-                data-toggle="tooltip"
-                title="CSS3"
-              ></i>
-              <i
-                class="devicon-mongodb-plain tech-icon"
-                data-toggle="tooltip"
-                title="MongoDB"
-              ></i>
-              <i
-                class="devicon-express-original tech-icon"
-                data-toggle="tooltip"
-                title="ExpressJS"
-              ></i>
-              <i
-                class="devicon-react-original tech-icon"
-                data-toggle="tooltip"
-                title="ReactJS"
-              ></i>
-              <i
-                class="devicon-nodejs-plain tech-icon"
-                data-toggle="tooltip"
-                title="NodeJS"
-              ></i>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="card">
-            <div class="card-item">
-              <h1>Carbon Neutral</h1>
-              <a
-                href="https://github.com/cgad/carbon-neutral"
-                class="github-link"
-                target="_blank"
-                ><i class="devicon-github-plain "></i
-              ></a>
-              <a
-                href="https://cryptic-woodland-29160.herokuapp.com/"
-                target="_blank"
-                ><img
-                  class="internet"
-                  id="carbon"
-                  src="src/assets/images/internet-icon.png"
-                  alt=""
-              /></a>
-              <p>
-                Provides environmental impact models for daily activities based
-                on user input. Designed for the environmentally conscious. View
-                search history and delete items. API integration.
-              </p>
-              <i class="devicon-html5-plain tech-icon"></i>
-              <i class="devicon-javascript-plain tech-icon"></i>
-              <i class="devicon-jquery-plain tech-icon"></i>
-              <i class="devicon-css3-plain tech-icon"></i>
-              <i class="devicon-mongodb-plain tech-icon"></i>
-              <i class="devicon-express-original tech-icon"></i>
-              <i class="devicon-react-original tech-icon"></i>
-              <i class="devicon-nodejs-plain tech-icon"></i>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="card">
-            <div class="card-item">
-              <h1>Onion Scraper</h1>
-              <a
-                href="https://github.com/cgad/onion-scraper"
-                class="github-link"
-                target="_blank"
-                ><i class="devicon-github-plain "></i
-              ></a>
-              <a
-                href="https://aqueous-ridge-77825.herokuapp.com/"
-                target="_blank"
-                ><img
-                  class="internet"
-                  id="onion"
-                  src="src/assets/images/internet-icon.png"
-                  alt=""
-              /></a>
-              <p>
-                View articles scraped from The Onion Politics and leave personal
-                notes. Uses Axios, Cheerio and Mongoose.
-              </p>
-              <i class="devicon-html5-plain tech-icon"></i>
-              <i class="devicon-javascript-plain tech-icon"></i>
-              <i class="devicon-jquery-plain tech-icon"></i>
-              <i class="devicon-css3-plain tech-icon"></i>
-              <i class="devicon-mongodb-plain tech-icon"></i>
-              <i class="devicon-express-original tech-icon"></i>
-              <i class="devicon-nodejs-plain tech-icon"></i>
-            </div>
-          </div>
-        </li>
-        <li class="read-more-target">
-          <div class="card">
-            <div class="card-item">
-              <h1>Liri Bot</h1>
-              <a href="https://github.com/cgad/devconnector" target="_blank"
-                ><i class="devicon-github-plain"></i
-              ></a>
-              <a href="https://warm-sea-72201.herokuapp.com/" target="_blank">
-                <img
-                  class="internet"
-                  src="src/assets/images/internet-icon.png"
-                  alt=""
-              /></a>
-              <p>
-                Allows user to search for concert, song, or movie info. Uses
-                Node. Search for specific concert, song or movie info from the
-                command line. API integration with Axios.
-              </p>
-              <i
-                class="devicon-html5-plain tech-icon"
-                data-toggle="tooltip"
-                title="HTML5"
-              ></i>
-              <i
-                class="devicon-javascript-plain tech-icon"
-                data-toggle="tooltip"
-                title="JavaScript"
-              ></i>
-              <i
-                class="devicon-css3-plain tech-icon"
-                data-toggle="tooltip"
-                title="CSS3"
-              ></i>
-              <i
-                class="devicon-nodejs-plain tech-icon"
-                data-toggle="tooltip"
-                title="NodeJS"
-              ></i>
-            </div>
-          </div>
-        </li>
-      </ul>
-      <label for="post-2" class="read-more-trigger"></label>
-    </div> -->
+    <button id="see-less-button" style="display: none" onclick="seeMore()">
+      see less
+    </button>
 
     <script src="src/app.js"></script>
   </body>
