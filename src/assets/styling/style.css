@@ -405,7 +405,8 @@ footer p {
     color: #55645c;
   }
 
-  #see-more-button {
+  #see-more-button,
+  #see-less-button {
     width: 150px;
   }
 }
