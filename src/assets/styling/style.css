@@ -10,7 +10,7 @@ body {
   padding-bottom: 20px;
   position: absolute;
   font-family: Courier, monospace;
-  /* background-color: #f8f8f8; */
+  background-color: whitesmoke;
   min-width: 478px;
 }
 
@@ -31,7 +31,8 @@ a:hover {
 .banner h1 {
   margin: 0;
   /* color: #534a33; */
-  color: #55645c;
+  /* color: #55645c; */
+  color: whitesmoke;
   font-weight: 300;
 }
 
@@ -39,7 +40,7 @@ a:hover {
   height: 200px;
   border-radius: 200px;
   /* border: 2px solid #534a33; */
-  border: 3px solid #55645c;
+  border: 3px solid whitesmoke;
   margin: 30px 0 10px 0;
 }
 
@@ -96,8 +97,9 @@ a:hover {
 }
 
 .top-container {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   /* background-color: #f8f8f8; */
+  background-color: #55645c;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -195,69 +197,10 @@ a:hover {
   margin-bottom: -26px;
 }
 
-/* HEADER ICONS -- STATIC */
-/* scroll style changed in js */
-#links {
-  position: fixed;
-  top: 20px;
-  z-index: 1;
-  /* to center fixed element horizontally */
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-#links p {
-  color: #534a33;
-  margin: 0;
-  background-color: #ffffff;
-  opacity: 0.5;
-  border-radius: 7px;
-  padding: 3px 9px;
-  font-size: 34px;
-  text-align: center;
-}
-
-#sub-icons {
-  background-color: #ffffff;
-  opacity: 0.5;
-  border-radius: 0 0 7px 7px;
-  padding: 2px 10px 6px 10px;
-  display: inline-block;
-}
-
-#email,
-#github,
-#linkedin {
-  position: relative;
-  bottom: 7px;
-}
-
-#github {
-  height: 22px;
-  margin: 0 6px 0 7px;
-  top: 4px;
-  padding-bottom: 2px;
-}
-
-#email {
-  height: 22px;
-  top: 2px;
-}
-
-#linkedin {
-  height: 23px;
-  top: 2px;
-}
-
-#sub-icons a:hover {
-  text-decoration: underline;
-}
-
 /* PORTFOLIO SECTION */
 .card {
   grid-column: span 12;
-  background-color: #ffffff;
+  background-color: whitesmoke;
   /* background-color: #f8f8f8; */
   margin-bottom: 0;
 }
