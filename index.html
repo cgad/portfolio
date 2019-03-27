@@ -12,8 +12,70 @@
     <title>Cara Adelson</title>
   </head>
   <body>
+    <div class="banner top-container">
+      <!-- <div class="myPic-border"> -->
+      <img
+        class="myPic"
+        src="src/assets/images/my-pic.png"
+        alt="Picture of Cara Adelson"
+      />
+      <!-- </div> -->
+      <h1>Cara Adelson</h1>
+    </div>
+
+    <!-- Sticky Header -->
+    <div class="header" id="myHeader">
+      <p id="header-links">
+        <a
+          href="mailto:cara.adelson@gmail.com"
+          target="_blank"
+          class="header-email"
+          >email</a
+        >|<a
+          a
+          href="https://github.com/cgad"
+          target="_blank"
+          class="header-github"
+          >github</a
+        >|<a
+          href="https://www.linkedin.com/in/cara-adelson-06219767/"
+          target="_blank"
+          class="header-linkedin"
+          >linkedin</a
+        >
+      </p>
+      <!-- media query to show icons instead of text -->
+      <p id="header-icons">
+        <a
+          href="mailto:cara.adelson@gmail.com"
+          target="_blank"
+          class="email-icon"
+          ><img src="src/assets/images/email-white.png"/></a
+        ><a
+          a
+          href="https://github.com/cgad"
+          target="_blank"
+          class="github-icon"
+          ><img src="src/assets/images/github-logo-white.png"/></a
+        ><a
+          href="https://www.linkedin.com/in/cara-adelson-06219767/"
+          target="_blank"
+          class="linkedin-icon"
+          ><img src="src/assets/images/linkedin-white.png"
+        /></a>
+      </p>
+      <p id="header-jump">
+        <a href="#jump-to-about" class="header-about">about</a>|<a
+          href="#jump-to-portfolio"
+          class="header-portfolio"
+          >portfolio</a
+        >
+        <!-- |<a href="#jump-to-contact" class="header-contact">contact</a> -->
+      </p>
+    </div>
+
     <!-- Fixed Links -->
-    <div id="links">
+    <!-- <div id="links">
       <p>cara adelson</p>
       <div id="sub-icons">
         <a href="mailto:cara.adelson@gmail.com" target="_blank"
@@ -37,14 +99,47 @@
             id="linkedin"
         /></a>
       </div>
-    </div>
+    </div> -->
 
-    <!-- Project Cards -->
-    <div class="container">
-      <div class="div-1"></div>
+    <!-- Sections About & Project Cards -->
+    <div class="container content">
+      <div class="section-labels" id="jump-to-about">
+        <a href="#jump-to-about"
+          ><p>about</p>
+          <img class="about" src="src/assets/images/section-arrow.png" alt=""
+        /></a>
+      </div>
+
+      <div class="div-1 clearfix">
+        <div class="div-1-background"></div>
+        <p>
+          Analytical developer with a B.S. in Neuroscience from the University
+          of Michigan and a Full Stack Web Development certificate from the
+          University of Denver.<br /><br />Skilled in HTML5, JS ES5/6, CSS3,
+          Responsive Design, REST APIs, AJAX, MERN Stack, NPM, Command Line, Git
+          & more.<br /><br />Crosswords, sudoku, jigsaw puzzles. Rock climbing,
+          snowboarding, slacklining. Traveling, reading, coding.
+        </p>
+      </div>
+
+      <div class="section-labels">
+        <a href="#jump-to-about"
+          ><img
+            class="about-2"
+            src="src/assets/images/section-arrow.png"
+            alt=""
+            id="jump-to-portfolio"
+          />
+          <p>about</p></a
+        >
+        <a href="#jump-to-portfolio"
+          ><p>portfolio</p>
+          <img class="about" src="src/assets/images/section-arrow.png" alt=""
+        /></a>
+      </div>
 
       <div class="card">
-        <div class="card-item">
+        <div class="card-item" id="first-item">
           <h1>DevConnector</h1>
           <a href="https://github.com/cgad/devconnector" target="_blank"
             ><i class="devicon-github-plain"></i
@@ -285,19 +380,48 @@
       see less
     </button>
 
+    <div class="section-labels">
+      <a href="#jump-to-portfolio"
+        ><img
+          class="about-2"
+          src="src/assets/images/section-arrow.png"
+          alt=""
+        />
+        <p>portfolio</p></a
+      >
+    </div>
+
+    <!-- CONTACT -->
+    <!-- <form>
+      <label for="name">name</label>
+      <input type="text" name="name" />
+      <label for="email">email</label>
+      <input type="email" name="email" />
+    </form> -->
+
     <!-- <div class="container"> -->
-      <footer>
-        <p id="footer-links">
-          <a href="mailto:cara.adelson@gmail.com" target="_blank" class='footer-email'>email</a
-          >|<a a href="https://github.com/cgad" target="_blank" class='footer-github'>github</a
-          >|<a
-            href="https://www.linkedin.com/in/cara-adelson-06219767/"
-            target="_blank" class='footer-linkedin'
-            >linkedin</a
-          >
-        </p>
-        <p>&copy; Cara Adelson 2019</p>
-      </footer>
+    <footer>
+      <p id="footer-links">
+        <a
+          href="mailto:cara.adelson@gmail.com"
+          target="_blank"
+          class="footer-email"
+          >email</a
+        >|<a
+          a
+          href="https://github.com/cgad"
+          target="_blank"
+          class="footer-github"
+          >github</a
+        >|<a
+          href="https://www.linkedin.com/in/cara-adelson-06219767/"
+          target="_blank"
+          class="footer-linkedin"
+          >linkedin</a
+        >
+      </p>
+      <p>&copy; Cara Adelson 2019</p>
+    </footer>
     <!-- </div> -->
 
     <script src="src/app.js"></script>

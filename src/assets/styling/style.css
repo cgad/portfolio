@@ -10,6 +10,122 @@ body {
   padding-bottom: 20px;
   position: absolute;
   font-family: Courier, monospace;
+  /* background-color: #f8f8f8; */
+  min-width: 478px;
+}
+
+a,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* BANNER */
+.banner {
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 0;
+  /* color: #534a33; */
+  color: #55645c;
+  /* color: #000000; */
+  font-weight: 300;
+}
+
+.myPic {
+  height: 200px;
+  border-radius: 200px;
+  /* border: 2px solid #534a33; */
+  border: 3px solid #55645c;
+  /* border: 2px solid #000000; */
+  margin: 30px 0 10px 0;
+}
+
+/* STICKY HEADER */
+.header {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#header-links {
+  display: inline-block;
+  text-align: left;
+  grid-column: span 6;
+}
+
+#header-links a,
+#header-jump a {
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+}
+
+#header-links a:hover,
+#header-jump a:hover {
+  text-decoration: underline;
+}
+
+#header-jump {
+  display: inline-block;
+  text-align: right;
+  grid-column: span 6;
+}
+
+.header-email,
+.header-about {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.header-github,
+.header-portfolio {
+  margin: 0 10px;
+}
+
+.header-portfolio {
+  margin-right: 0;
+}
+
+.header-linkedin,
+.header-contact {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.top-container {
+  background-color: #ffffff;
+  /* background-color: #f8f8f8; */
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.header {
+  /* padding: 17px 20px; */
+  background-color: #b0b0b0;
+  color: #f1f1f1;
+  height: 55px;
+  line-height: 55px;
+}
+
+.header p {
+  font-size: 16px;
+  margin: 0 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 .container {
@@ -18,15 +134,69 @@ body {
   position: relative;
 }
 
-/* DIV 1 - HEADER BACKGROUND */
+/* DIV 1 - ABOUT */
 .div-1 {
   grid-column: span 12;
   background-image: url("../images/yellowstone-geysers.jpg");
-  height: 250px;
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /* padding: 20px; */
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+.div-1-background {
+  background-color: #ffffff;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 10px solid #55645c;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.div-1 p {
+  margin: 40px;
+  word-wrap: break-word;
+  font-size: 18px;
+  position: absolute;
+}
+
+.section-labels {
+  text-align: center;
+  grid-column: span 12;
+  padding-top: 5px;
+}
+
+.section-labels p {
+  font-size: 14px;
+  margin: 10px;
+  z-index: 1;
+  color: #534a33;
+}
+
+.section-labels a {
+  text-decoration-color: #000000;
+}
+
+.section-labels img {
+  width: 40px;
+}
+
+.about {
+  margin-top: -25px;
+  margin-bottom: -5px;
+}
+
+.about-2 {
+  transform: rotate(180deg);
+  margin-bottom: -26px;
 }
 
 /* HEADER ICONS -- STATIC */
@@ -49,7 +219,6 @@ body {
   border-radius: 7px;
   padding: 3px 9px;
   font-size: 34px;
-  /* font-family: Courier, monospace; */
   text-align: center;
 }
 
@@ -93,6 +262,7 @@ body {
 .card {
   grid-column: span 12;
   background-color: #ffffff;
+  /* background-color: #f8f8f8; */
   margin-bottom: 0;
 }
 
@@ -102,10 +272,12 @@ body {
   margin: 20px;
   margin-bottom: 0;
   padding: 30px;
-  padding: 30px;
   padding-bottom: 38px;
-  /* font-family: Courier, monospace; */
   border-radius: 10px;
+}
+
+#first-item {
+  margin-top: 0;
 }
 
 .card-item h1 {
@@ -175,13 +347,19 @@ body {
   height: 30px;
   width: 100px;
   margin: 18px auto;
+  margin-bottom: -5px;
   font-size: 16px;
   font-family: Courier, monospace;
 }
 
 #see-more-button:hover,
 #see-less-button:hover {
-  background-color: #a9a9a9;
+  background-color: #c0c0c0;
+}
+
+/* CONTACT */
+form {
+  grid-column: span 12;
 }
 
 /* FOOTER */
@@ -229,11 +407,59 @@ footer p {
   margin-left: 10px;
 }
 
+/* header icons instead of text when small screen */
+.email-icon img {
+  height: 40px;
+  width: 32px;
+  margin-top: 7px;
+}
+
+.github-icon img {
+  height: 25px;
+  margin: 0 16px 7px 15px;
+  margin-bottom: 7px;
+}
+
+.linkedin-icon img {
+  height: 27px;
+  margin-bottom: 7px;
+  margin-right: 3px;
+}
+
+#header-icons {
+  grid-column: span 12;
+  margin: 0 auto;
+}
+
 /* MEDIA QUERIES */
+@media (max-width: 640px) {
+  /*applied if browser window width is less than or equal to 600px*/
+  
+
+  #header-links {
+    display: none;
+  }
+
+  #header-jump {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones & small screens: */
+
   .div-1 {
-    height: 200px;
+    margin: 0;
+    height: 300px;
+    border-radius: 0;
+  }
+
+  .div-1-background {
+    border-radius: 0;
+  }
+
+  .div-1 p {
+    font-size: 16px;
   }
 
   .card-item {
@@ -249,4 +475,15 @@ footer p {
   #see-more-button {
     width: 150px;
   }
+}
+
+@media (min-width: 641px) {
+  /*applied if browser window width is greater than 600px*/
+  #header-icons {
+    display: none;
+  }
+
+  /* #header-jump {
+    display: none;
+  } */
 }
