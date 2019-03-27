@@ -32,7 +32,6 @@ a:hover {
   margin: 0;
   /* color: #534a33; */
   color: #55645c;
-  /* color: #000000; */
   font-weight: 300;
 }
 
@@ -41,7 +40,6 @@ a:hover {
   border-radius: 200px;
   /* border: 2px solid #534a33; */
   border: 3px solid #55645c;
-  /* border: 2px solid #000000; */
   margin: 30px 0 10px 0;
 }
 
@@ -105,7 +103,6 @@ a:hover {
 }
 
 .header {
-  /* padding: 17px 20px; */
   background-color: #b0b0b0;
   color: #f1f1f1;
   height: 55px;
@@ -143,7 +140,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /* padding: 20px; */
   text-align: center;
   border-radius: 10px;
   margin: 0 20px;
@@ -357,11 +353,6 @@ a:hover {
   background-color: #c0c0c0;
 }
 
-/* CONTACT */
-form {
-  grid-column: span 12;
-}
-
 /* FOOTER */
 footer {
   color: #a9a9a9;
@@ -434,7 +425,6 @@ footer p {
 /* MEDIA QUERIES */
 @media (max-width: 640px) {
   /*applied if browser window width is less than or equal to 600px*/
-  
 
   #header-links {
     display: none;
@@ -482,8 +472,4 @@ footer p {
   #header-icons {
     display: none;
   }
-
-  /* #header-jump {
-    display: none;
-  } */
 }
