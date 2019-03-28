@@ -11,7 +11,6 @@ body {
   position: absolute;
   font-family: Courier, monospace;
   background-color: #ffffff;
-  /* min-width: 478px; */
 }
 
 a,
@@ -30,8 +29,6 @@ a:hover {
 
 .banner h1 {
   margin: 0;
-  /* color: #534a33; */
-  /* color: #55645c; */
   color: whitesmoke;
   font-weight: 300;
 }
@@ -39,7 +36,6 @@ a:hover {
 .myPic {
   height: 200px;
   border-radius: 200px;
-  /* border: 2px solid #534a33; */
   border: 3px solid whitesmoke;
   margin: 30px 0 10px 0;
 }
@@ -106,8 +102,6 @@ a:hover {
 }
 
 .top-container {
-  /* background-color: #ffffff; */
-  /* background-color: #f8f8f8; */
   background-color: #55645c;
   padding-bottom: 20px;
   text-align: center;
@@ -136,7 +130,6 @@ a:hover {
 .div-1 {
   grid-column: span 12;
   background-image: url("../images/yellowstone-geysers.jpg");
-  /* height: 300px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,23 +146,19 @@ a:hover {
 }
 
 .div-1-background {
-  /* background-color: #ffffff; */
   background-color: rgba(255, 255, 255, 0.5);
-  /* opacity: 0.4; */
   width: 100%;
   height: 100%;
   box-sizing: border-box;
   padding: 20px;
   border: 6px solid #55645c;
   border-radius: 10px;
-  /* position: absolute; */
 }
 
 .div-1 p {
   margin: 25px;
   word-wrap: break-word;
   font-size: 18px;
-  /* position: absolute; */
 }
 
 .section-labels {
@@ -207,12 +196,10 @@ a:hover {
 .card {
   grid-column: span 12;
   background-color: #ffffff;
-  /* background-color: #f8f8f8; */
   margin-bottom: 0;
 }
 
 .card-item {
-  /* background-color: #55645c; */
   background-color: #f0f0f0;
   text-align: center;
   margin: 20px;
@@ -264,11 +251,6 @@ a:hover {
   background: none;
 }
 
-.devicon-github-plain:hover,
-.internet:hover {
-  /* border: 2px solid black; */
-}
-
 .devicon-github-plain {
   padding: 7px;
   box-sizing: content-box;
@@ -286,7 +268,6 @@ a:hover {
 #see-more-button,
 #see-less-button {
   border: 2px solid #534a33;
-  /* background-color: #F0F0F0; */
   background-color: #55645c;
   color: whitesmoke;
   border-radius: 0.5em;
@@ -408,11 +389,6 @@ footer p {
 /* MEDIA QUERIES */
 @media (max-width: 640px) {
   /*applied if browser window width is less than or equal to 600px*/
-  .div-1 p {
-    font-size: 16px;
-    margin: 30px;
-  }
-
   #header-links {
     display: none;
   }
@@ -430,7 +406,7 @@ footer p {
   }
 
   .div-1 p {
-    margin: 25px 5px;
+    margin: 15px 5px;
     font-size: 16px;
   }
 
