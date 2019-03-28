@@ -11,7 +11,7 @@ body {
   position: absolute;
   font-family: Courier, monospace;
   background-color: whitesmoke;
-  min-width: 478px;
+  /* min-width: 478px; */
 }
 
 a,
@@ -368,6 +368,15 @@ footer p {
 /* MEDIA QUERIES */
 @media (max-width: 640px) {
   /*applied if browser window width is less than or equal to 600px*/
+  .div-1 {
+    height: 325px;
+    /* padding: 10px; */
+  }
+
+  .div-1 p {
+    font-size: 16px;
+    margin: 30px;
+  }
 
   #header-links {
     display: none;
@@ -380,19 +389,19 @@ footer p {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones & small screens: */
-
   .div-1 {
     margin: 0;
-    height: 300px;
-    border-radius: 0;
-  }
-
-  .div-1-background {
+    /* height: 300px; */
     border-radius: 0;
   }
 
   .div-1 p {
+    margin: 25px;
     font-size: 16px;
+  }
+
+  .div-1-background {
+    border-radius: 0;
   }
 
   .card-item {
