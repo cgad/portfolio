@@ -1,3 +1,4 @@
+// sticky header
 window.onscroll = function() {
   myFunction();
 };
