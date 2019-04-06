@@ -359,15 +359,15 @@ footer {
 /* MEDIA QUERIES */
 @media (max-width: 640px) {
   /*applied if browser window width is less than or equal to 600px*/
-.banner {
-  img {
-    height: 150px;
-  }
+  .banner {
+    img {
+      height: 150px;
+    }
 
-  h1 {
-    font-size: 175%;
+    h1 {
+      font-size: 175%;
+    }
   }
-}
 
   .header {
     #header-links {
