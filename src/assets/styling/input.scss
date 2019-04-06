@@ -359,12 +359,24 @@ footer {
 /* MEDIA QUERIES */
 @media (max-width: 640px) {
   /*applied if browser window width is less than or equal to 600px*/
-  #header-links {
-    display: none;
+.banner {
+  img {
+    height: 150px;
   }
 
-  #header-jump {
-    display: none;
+  h1 {
+    font-size: 175%;
+  }
+}
+
+  .header {
+    #header-links {
+      display: none;
+    }
+
+    #header-jump {
+      display: none;
+    }
   }
 }
 

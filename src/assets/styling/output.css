@@ -345,11 +345,17 @@ footer .footer-linkedin {
 /* MEDIA QUERIES */
 @media (max-width: 640px) {
   /*applied if browser window width is less than or equal to 600px*/
-  #header-links {
-    display: none;
+  .banner img {
+    height: 150px;
+  }
+  .banner h1 {
+    font-size: 175%;
   }
 
-  #header-jump {
+  .header #header-links {
+    display: none;
+  }
+  .header #header-jump {
     display: none;
   }
 }
