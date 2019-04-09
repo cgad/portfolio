@@ -4,6 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    /> -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="src/assets/styling/tooltipster-master/dist/css/tooltipster.bundle.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="src/assets/styling/tooltipster-master/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
@@ -18,10 +35,7 @@
   </head>
   <body>
     <div class="banner top-container">
-      <img
-        src="src/assets/images/my-pic.png"
-        alt="Picture of Cara Adelson"
-      />
+      <img src="src/assets/images/my-pic.png" alt="Picture of Cara Adelson" />
       <h1>Cara Adelson</h1>
     </div>
 
@@ -31,7 +45,8 @@
         <a
           href="mailto:cara.adelson@gmail.com"
           target="_blank"
-          class="header-email"
+          class="header-email tooltip"
+          title="Email me!"
           >email</a
         >|<a
           href="https://github.com/cgad"
@@ -50,18 +65,21 @@
         <a
           href="mailto:cara.adelson@gmail.com"
           target="_blank"
-          class="email-icon hvr-pulse-grow"
+          class="email-icon hvr-pulse-grow tooltip"
+          title="Email me!"
           ><img src="src/assets/images/email-white.png"/></a
         ><a
           a
           href="https://github.com/cgad"
           target="_blank"
-          class="github-icon hvr-pulse-grow"
+          class="github-icon hvr-pulse-grow tooltip"
+          title="Check out my GitHub profile!"
           ><img src="src/assets/images/github-logo-white.png"/></a
         ><a
           href="https://www.linkedin.com/in/cara-adelson-06219767/"
           target="_blank"
-          class="linkedin-icon hvr-pulse-grow"
+          class="linkedin-icon hvr-pulse-grow tooltip"
+          title="View my LinkedIn profile!"
           ><img src="src/assets/images/linkedin-white.png"
         /></a>
       </p>
@@ -84,7 +102,7 @@
       </div>
 
       <div class="div-1">
-        <div class="div-1-background flex-container">
+        <div class="div-1-background">
           <xmp><h1>Hello, world!</h1></xmp>
           <p>
             I'm Cara, a curious and solution-oriented web developer located in
@@ -92,9 +110,22 @@
             back-end and full-stack solutions. I value efficiency and am an
             active learner. I enjoy working with dedicated folk in a supportive
             environment.<br /><br />I love to do crosswords and snowboard, and I
-            aim to pet at least one dog per day.<br /><br />Check out my
-            <a href="#jump-to-portfolio">projects</a> and get in touch!
+            aim to pet at least one dog per day.<br /><br />Check out some of my
+            <a href="#jump-to-portfolio">projects</a> below. Let's work
+            together.
           </p>
+          <div class="my-skills">
+            <i class="devicon-html5-plain tooltip" title="HTML5"></i>
+            <i class="devicon-javascript-plain tooltip" title="JavaScript"></i>
+            <i class="devicon-css3-plain tooltip" title="CSS3"></i>
+            <i class="devicon-mongodb-plain tooltip" title="MongoDB"></i>
+            <i class="devicon-mysql-plain tooltip" title="MySQL"></i>
+            <i class="devicon-sequelize-plain tooltip" title="Sequelize"></i>
+            <i class="devicon-express-original tooltip" title="ExpressJS"></i>
+            <i class="devicon-react-original tooltip" title="ReactJS"></i>
+            <i class="devicon-nodejs-plain tooltip" title="NodeJS"></i>
+            <p>& more!</p>
+          </div>
         </div>
       </div>
 
@@ -122,12 +153,16 @@
               href="https://github.com/cgad/devconnector"
               target="_blank"
               class="hvr-pulse-grow"
-              ><i class="devicon-github-plain"></i
+              ><i
+                class="devicon-github-plain tooltip"
+                title="Go to GitHub Repository"
+              ></i
             ></a>
             <a
               href="https://warm-sea-72201.herokuapp.com/"
               target="_blank"
-              class="hvr-pulse-grow"
+              class="hvr-pulse-grow tooltip"
+              title="Go to Deployed App"
             >
               <img
                 class="internet"
@@ -141,41 +176,13 @@
             authentication with Passport and JSON Web Tokens. Made with Redux.
           </p>
           <div class="tech-used">
-            <i
-              class="devicon-html5-plain tech-icon"
-              data-toggle="tooltip"
-              title="HTML5"
-            ></i>
-            <i
-              class="devicon-javascript-plain tech-icon"
-              data-toggle="tooltip"
-              title="JavaScript"
-            ></i>
-            <i
-              class="devicon-css3-plain tech-icon"
-              data-toggle="tooltip"
-              title="CSS3"
-            ></i>
-            <i
-              class="devicon-mongodb-plain tech-icon"
-              data-toggle="tooltip"
-              title="MongoDB"
-            ></i>
-            <i
-              class="devicon-express-original tech-icon"
-              data-toggle="tooltip"
-              title="ExpressJS"
-            ></i>
-            <i
-              class="devicon-react-original tech-icon"
-              data-toggle="tooltip"
-              title="ReactJS"
-            ></i>
-            <i
-              class="devicon-nodejs-plain tech-icon"
-              data-toggle="tooltip"
-              title="NodeJS"
-            ></i>
+            <i class="devicon-html5-plain tooltip" title="HTML5"></i>
+            <i class="devicon-javascript-plain tooltip" title="JavaScript"></i>
+            <i class="devicon-css3-plain tooltip" title="CSS3"></i>
+            <i class="devicon-mongodb-plain tooltip" title="MongoDB"></i>
+            <i class="devicon-express-original tooltip" title="ExpressJS"></i>
+            <i class="devicon-react-original tooltip" title="ReactJS"></i>
+            <i class="devicon-nodejs-plain tooltip" title="NodeJS"></i>
           </div>
         </div>
       </div>
@@ -188,12 +195,16 @@
               href="https://github.com/cgad/carbon-neutral"
               class="hvr-pulse-grow"
               target="_blank"
-              ><i class="devicon-github-plain "></i
+              ><i
+                class="devicon-github-plain tooltip"
+                title="Go to GitHub Repository"
+              ></i
             ></a>
             <a
               href="https://cryptic-woodland-29160.herokuapp.com/"
               target="_blank"
-              class="hvr-pulse-grow"
+              class="hvr-pulse-grow tooltip"
+              title="Go to Deployed App"
               ><img
                 class="internet"
                 src="src/assets/images/internet-icon.png"
@@ -206,14 +217,14 @@
             history and delete items. API integration.
           </p>
           <div class="tech-used">
-            <i class="devicon-html5-plain tech-icon"></i>
-            <i class="devicon-javascript-plain tech-icon"></i>
-            <i class="devicon-jquery-plain tech-icon"></i>
-            <i class="devicon-css3-plain tech-icon"></i>
-            <i class="devicon-mongodb-plain tech-icon"></i>
-            <i class="devicon-express-original tech-icon"></i>
-            <i class="devicon-react-original tech-icon"></i>
-            <i class="devicon-nodejs-plain tech-icon"></i>
+            <i class="devicon-html5-plain tooltip"></i>
+            <i class="devicon-javascript-plain tooltip"></i>
+            <i class="devicon-jquery-plain tooltip"></i>
+            <i class="devicon-css3-plain tooltip"></i>
+            <i class="devicon-mongodb-plain tooltip"></i>
+            <i class="devicon-express-original tooltip"></i>
+            <i class="devicon-react-original tooltip"></i>
+            <i class="devicon-nodejs-plain tooltip"></i>
           </div>
         </div>
       </div>
@@ -225,12 +236,16 @@
               href="https://github.com/cgad/onion-scraper"
               class="hvr-pulse-grow"
               target="_blank"
-              ><i class="devicon-github-plain "></i
+              ><i
+                class="devicon-github-plain tooltip"
+                title="Go to GitHub Repository"
+              ></i
             ></a>
             <a
               href="https://aqueous-ridge-77825.herokuapp.com/"
               target="_blank"
-              class="hvr-pulse-grow"
+              class="hvr-pulse-grow tooltip"
+              title="Go to Deployed App"
               ><img
                 class="internet"
                 src="src/assets/images/internet-icon.png"
@@ -242,13 +257,13 @@
             notes. Uses Axios, Cheerio and Mongoose.
           </p>
           <div class="tech-used">
-            <i class="devicon-html5-plain tech-icon"></i>
-            <i class="devicon-javascript-plain tech-icon"></i>
-            <i class="devicon-jquery-plain tech-icon"></i>
-            <i class="devicon-css3-plain tech-icon"></i>
-            <i class="devicon-mongodb-plain tech-icon"></i>
-            <i class="devicon-express-original tech-icon"></i>
-            <i class="devicon-nodejs-plain tech-icon"></i>
+            <i class="devicon-html5-plain tooltip"></i>
+            <i class="devicon-javascript-plain tooltip"></i>
+            <i class="devicon-jquery-plain tooltip"></i>
+            <i class="devicon-css3-plain tooltip"></i>
+            <i class="devicon-mongodb-plain tooltip"></i>
+            <i class="devicon-express-original tooltip"></i>
+            <i class="devicon-nodejs-plain tooltip"></i>
           </div>
         </div>
       </div>
@@ -265,12 +280,16 @@
               href="https://github.com/cgad/liri-node-app"
               target="_blank"
               class="hvr-pulse-grow"
-              ><i class="devicon-github-plain"></i
+              ><i
+                class="devicon-github-plain tooltip"
+                title="Go to GitHub Repository"
+              ></i
             ></a>
             <a
               href="https://drive.google.com/file/d/12RP4El2shlmCXrTRherPUGN4s9--_Dp9/view?usp=sharing"
               target="_blank"
-              class="hvr-pulse-grow"
+              class="hvr-pulse-grow tooltip"
+              title="View Demo Video"
             >
               <img class="internet" src="src/assets/images/movie.png" alt=""
             /></a>
@@ -281,26 +300,10 @@
             Line. API integration with Axios.
           </p>
           <div class="tech-used">
-            <i
-              class="devicon-html5-plain tech-icon"
-              data-toggle="tooltip"
-              title="HTML5"
-            ></i>
-            <i
-              class="devicon-javascript-plain tech-icon"
-              data-toggle="tooltip"
-              title="JavaScript"
-            ></i>
-            <i
-              class="devicon-css3-plain tech-icon"
-              data-toggle="tooltip"
-              title="CSS3"
-            ></i>
-            <i
-              class="devicon-nodejs-plain tech-icon"
-              data-toggle="tooltip"
-              title="NodeJS"
-            ></i>
+            <i class="devicon-html5-plain tooltip" title="HTML5"></i>
+            <i class="devicon-javascript-plain tooltip" title="JavaScript"></i>
+            <i class="devicon-css3-plain tooltip" title="CSS3"></i>
+            <i class="devicon-nodejs-plain tooltip" title="NodeJS"></i>
           </div>
         </div>
       </div>
@@ -312,12 +315,13 @@
               href="https://github.com/cgad/giftastic"
               target="_blank"
               class="hvr-pulse-grow"
-              ><i class="devicon-github-plain"></i
+              ><i class="devicon-github-plain tooltip"></i
             ></a>
             <a
               href="https://cgad.github.io/giftastic/"
               target="_blank"
-              class="hvr-pulse-grow"
+              class="hvr-pulse-grow tooltip"
+              title="Go to Deployed App"
             >
               <img
                 class="internet"
@@ -330,21 +334,9 @@
             AJAX.
           </p>
           <div class="tech-used">
-            <i
-              class="devicon-html5-plain tech-icon"
-              data-toggle="tooltip"
-              title="HTML5"
-            ></i>
-            <i
-              class="devicon-javascript-plain tech-icon"
-              data-toggle="tooltip"
-              title="JavaScript"
-            ></i>
-            <i
-              class="devicon-css3-plain tech-icon"
-              data-toggle="tooltip"
-              title="CSS3"
-            ></i>
+            <i class="devicon-html5-plain tooltip" title="HTML5"></i>
+            <i class="devicon-javascript-plain tooltip" title="JavaScript"></i>
+            <i class="devicon-css3-plain tooltip" title="CSS3"></i>
           </div>
         </div>
       </div>
@@ -356,12 +348,16 @@
               href="https://github.com/cgad/FriendFinder"
               target="_blank"
               class="hvr-pulse-grow"
-              ><i class="devicon-github-plain"></i
+              ><i
+                class="devicon-github-plain tooltip"
+                title="Go to GitHub Repository"
+              ></i
             ></a>
             <a
               href="https://glacial-lowlands-57080.herokuapp.com/"
               target="_blank"
-              class="hvr-pulse-grow"
+              class="hvr-pulse-grow tooltip"
+              title="Go to Deployed App"
             >
               <img
                 class="internet"
@@ -374,26 +370,10 @@
             list stored serverside. Uses RESTful APIs.
           </p>
           <div class="tech-used">
-            <i
-              class="devicon-html5-plain tech-icon"
-              data-toggle="tooltip"
-              title="HTML5"
-            ></i>
-            <i
-              class="devicon-javascript-plain tech-icon"
-              data-toggle="tooltip"
-              title="JavaScript"
-            ></i>
-            <i
-              class="devicon-css3-plain tech-icon"
-              data-toggle="tooltip"
-              title="CSS3"
-            ></i>
-            <i
-              class="devicon-express-original tech-icon"
-              data-toggle="tooltip"
-              title="ExpressJS"
-            ></i>
+            <i class="devicon-html5-plain tooltip" title="HTML5"></i>
+            <i class="devicon-javascript-plain tooltip" title="JavaScript"></i>
+            <i class="devicon-css3-plain tooltip" title="CSS3"></i>
+            <i class="devicon-express-original tooltip" title="ExpressJS"></i>
           </div>
         </div>
       </div>
@@ -424,7 +404,6 @@
           class="footer-email"
           >email</a
         >|<a
-          a
           href="https://github.com/cgad"
           target="_blank"
           class="footer-github"
@@ -438,6 +417,40 @@
       </p>
       <p>&copy; Cara Adelson 2019</p>
     </footer>
+
+    <div id="my-modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Get in touch!</p>
+        <p>
+          Send me an
+          <a
+            href="mailto:cara.adelson@gmail.com"
+            target="_blank"
+            style="color: grey;"
+            >email</a
+          >
+          or shoot me a message on
+          <a
+            href="https://www.linkedin.com/in/cara-adelson-06219767/"
+            target="_blank"
+            style="color: grey;"
+            >LinkedIn</a
+          >.
+        </p>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="src/assets/styling/tooltipster-master/dist/js/tooltipster.bundle.js"
+    ></script>
     <script src="src/app.js"></script>
   </body>
 </html>

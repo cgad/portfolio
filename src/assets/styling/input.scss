@@ -176,6 +176,36 @@ a:hover {
     padding: 20px;
     border: 6px solid $primary-color;
     border-radius: 10px;
+
+    .my-skills {
+      @include flex-container(center, center, row);
+      font-size: 23px;
+      line-height: 30px;
+      margin-top: 4px;
+
+      i {
+        padding: 6px;
+        margin-bottom: 3px;
+        color: black;
+      }
+
+      .tooltip {
+        color: black;
+      }
+
+      p {
+        padding: 6px;
+        font-size: 11px / 16px * 100%;
+        margin: auto 0 5px 0;
+      }
+
+      .devicon-react-original {
+        animation-name: spin;
+        animation-duration: 3000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+    }
   }
 
   p {
@@ -195,6 +225,11 @@ a:hover {
     font-size: 140%;
     margin: 7px 0 6px 0;
   }
+}
+
+.tech-used {
+  font-size: 20px;
+  line-height: 25px;
 }
 
 .section-labels {
@@ -237,7 +272,8 @@ a:hover {
   .card-item {
     @include flex-container(center, "", column);
     background-color: $content-background;
-    padding: 27px;
+    padding: 22px;
+    padding-top: 10px;
     border: 6px solid $primary-color;
     border-radius: 10px;
     width: 100%;
@@ -245,6 +281,7 @@ a:hover {
 
     h1 {
       margin-bottom: 17px;
+      margin-top: 8px;
       font-size: 22px / 16px * 100%;
     }
 
@@ -295,11 +332,6 @@ a:hover {
       padding: 7.5px;
       margin-bottom: 6px;
       margin-left: 3px;
-    }
-
-    .tech-icon {
-      font-size: 20px;
-      line-height: 25px;
     }
   }
 }
@@ -356,6 +388,70 @@ footer {
   }
 }
 
+// MODAL
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 10;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+#my-modal {
+  display: none;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 50% auto;
+  /* 50% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+// ANIMATION
+// React logo spin
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 640px) {
   /*applied if browser window width is less than or equal to 600px*/
@@ -382,6 +478,11 @@ footer {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones & small screens: */
+
+  .modal-content {
+    width: 80%;
+  }
+
   .div-1 {
     margin: 0;
     border-radius: 0;

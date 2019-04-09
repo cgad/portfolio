@@ -1,3 +1,24 @@
+$(document).ready(function() {
+  setTimeout(function() {
+    $("#myModal").fadeIn(200);
+  }, 1000); // milliseconds
+});
+
+// contact me modal after 5 secs
+window.onload = function() {
+  var modal = document.getElementById("my-modal");
+
+  setTimeout(function() {
+    modal.style.display = "block";
+  }, 5000);
+};
+
+// close modal
+$(".close").click(function() {
+  var modal = document.getElementById("my-modal");
+  modal.style.display = "none";
+});
+
 // sticky header
 window.onscroll = function() {
   myFunction();
