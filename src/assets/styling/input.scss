@@ -288,7 +288,7 @@ a:hover {
     p {
       font-size: 18px / 16px * 100%;
       margin: 13px auto 19px auto;
-      max-width: 7250px;
+      max-width: 725px;
       line-height: 125%;
     }
 
@@ -418,11 +418,13 @@ footer {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 50% auto;
-  /* 50% from the top and centered */
-  padding: 20px;
+  padding: 15px 30px;
+  line-height: 135%;
   border: 1px solid #888;
-  width: 50%;
+  width: 40%;
+  position: relative;
+  top: 40%;
+  margin: 0 auto;
 }
 
 /* The Close Button */
@@ -479,9 +481,9 @@ footer {
 @media only screen and (max-width: 768px) {
   /* For mobile phones & small screens: */
 
-  .modal-content {
-    width: 80%;
-  }
+  // .modal-content {
+  //   width: 80%;
+  // }
 
   .div-1 {
     margin: 0;

@@ -1,8 +1,8 @@
-$(document).ready(function() {
-  setTimeout(function() {
-    $("#myModal").fadeIn(200);
-  }, 1000); // milliseconds
-});
+// $(document).ready(function() {
+//   setTimeout(function() {
+//     $("#myModal").fadeIn(200);
+//   }, 1000); // milliseconds
+// });
 
 // contact me modal after 5 secs
 window.onload = function() {
@@ -10,7 +10,7 @@ window.onload = function() {
 
   setTimeout(function() {
     modal.style.display = "block";
-  }, 5000);
+  }, 500);
 };
 
 // close modal

@@ -285,7 +285,7 @@ a:hover {
 .card .card-item p {
   font-size: 112.5%;
   margin: 13px auto 19px auto;
-  max-width: 7250px;
+  max-width: 725px;
   line-height: 125%;
 }
 .card .card-item a {
@@ -402,11 +402,13 @@ footer .footer-linkedin {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 50% auto;
-  /* 50% from the top and centered */
-  padding: 20px;
+  padding: 15px 30px;
+  line-height: 135%;
   border: 1px solid #888;
-  width: 50%;
+  width: 40%;
+  position: relative;
+  top: 40%;
+  margin: 0 auto;
 }
 
 /* The Close Button */
@@ -451,10 +453,6 @@ footer .footer-linkedin {
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones & small screens: */
-  .modal-content {
-    width: 80%;
-  }
-
   .div-1 {
     margin: 0;
     border-radius: 0;
