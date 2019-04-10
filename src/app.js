@@ -1,17 +1,9 @@
-// $(document).ready(function() {
-//   setTimeout(function() {
-//     $("#myModal").fadeIn(200);
-//   }, 1000); // milliseconds
-// });
-
-// contact me modal after 5 secs
-window.onload = function() {
-  var modal = document.getElementById("my-modal");
-
+// contact me modal
+$(document).ready(function() {
   setTimeout(function() {
-    modal.style.display = "block";
-  }, 500);
-};
+    $("#my-modal").fadeIn(450);
+  }, 12 * 1000);
+});
 
 // close modal
 $(".close").click(function() {
