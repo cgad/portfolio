@@ -1,8 +1,9 @@
-// contact me modal
+// contact me modal & tooltip initiation
 $(document).ready(function() {
   setTimeout(function() {
     $("#my-modal").fadeIn(450);
   }, 12 * 1000);
+  $(".tooltip").tooltipster();
 });
 
 // close modal
@@ -12,12 +13,12 @@ $(".close").click(function() {
 });
 
 // sticky header
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
 window.onscroll = function() {
   myFunction();
 };
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset > sticky) {
