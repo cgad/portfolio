@@ -2,7 +2,7 @@
 $(document).ready(function() {
   setTimeout(function() {
     $("#my-modal").fadeIn(450);
-  }, 12 * 1000);
+  }, 20 * 1000);
   $(".tooltip").tooltipster();
 });
 
