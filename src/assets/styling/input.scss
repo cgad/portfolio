@@ -1,6 +1,7 @@
 @import "hvr-pulse-grow";
 
-$font-stack: Courier, monospace;
+$font-stack: Courier,
+monospace;
 $primary-color: #55645c;
 $content-background: #f5f5f5;
 $header-grey: #b0b0b0;
@@ -151,7 +152,7 @@ a:hover {
   background-color: $primary-color;
 }
 
-.sticky + .content {
+.sticky+.content {
   padding-top: 60px;
 }
 
@@ -177,6 +178,14 @@ a:hover {
     border: 6px solid $primary-color;
     border-radius: 10px;
 
+    a {
+      color: $primary-color;
+    }
+
+    a:hover {
+      color: black;
+    }
+
     .my-skills {
       @include flex-container(center, center, row);
       font-size: 23px;
@@ -194,6 +203,8 @@ a:hover {
         font-size: 11px / 16px * 100%;
         margin: auto 0 5px 0;
       }
+
+
 
       .devicon-react-original {
         animation-name: spin;
@@ -315,6 +326,7 @@ a:hover {
   }
 
   .app-links {
+
     i,
     img {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -452,6 +464,7 @@ footer {
 
 /* MEDIA QUERIES */
 @media (max-width: 640px) {
+
   /*applied if browser window width is less than or equal to 600px*/
   .banner {
     img {
@@ -521,6 +534,7 @@ footer {
 }
 
 @media (min-width: 641px) {
+
   /*applied if browser window width is greater than 600px*/
   #header-icons {
     display: none;

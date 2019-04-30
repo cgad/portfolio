@@ -180,6 +180,12 @@ a:hover {
   border: 6px solid #55645c;
   border-radius: 10px;
 }
+.div-1 .div-1-background a {
+  color: #55645c;
+}
+.div-1 .div-1-background a:hover {
+  color: black;
+}
 .div-1 .div-1-background .my-skills {
   display: flex;
   justify-content: center;
