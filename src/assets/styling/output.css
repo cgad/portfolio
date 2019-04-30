@@ -169,6 +169,12 @@ a:hover {
   margin: 5px 70px 2px 70px;
   color: black;
 }
+.div-1 .intro-links {
+  color: #55645c;
+}
+.div-1 .intro-links:hover {
+  color: black;
+}
 .div-1 .div-1-background {
   display: flex;
   justify-content: center;
@@ -179,12 +185,6 @@ a:hover {
   padding: 20px;
   border: 6px solid #55645c;
   border-radius: 10px;
-}
-.div-1 .div-1-background a {
-  color: #55645c;
-}
-.div-1 .div-1-background a:hover {
-  color: black;
 }
 .div-1 .div-1-background .my-skills {
   display: flex;
@@ -495,5 +495,3 @@ footer .footer-linkedin {
     display: none;
   }
 }
-
-/*# sourceMappingURL=output.css.map */
