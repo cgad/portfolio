@@ -171,7 +171,7 @@ a:hover {
   color: black;
 
   .intro-links {
-    color: $primary-color; 
+    color: $primary-color;
   }
 
   .intro-links:hover {
@@ -186,7 +186,11 @@ a:hover {
     border: 6px solid $primary-color;
     border-radius: 10px;
 
-
+    .currently {
+      font-size: 85%;
+      margin-top: 0;
+      width: 50%;
+    }
 
     .my-skills {
       @include flex-container(center, center, row);
@@ -205,8 +209,6 @@ a:hover {
         font-size: 11px / 16px * 100%;
         margin: auto 0 5px 0;
       }
-
-
 
       .devicon-react-original {
         animation-name: spin;
